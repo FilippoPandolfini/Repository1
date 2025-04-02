@@ -1,33 +1,21 @@
 package entity3;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Animal animal = new Animal("cane", "BAU") {
-            @Override
-            public void makeSound() {
+        Cat gatto = new Cat("Gino");
+        Macchina car = new Macchina();
+        List<SoundEngine> listasuonatori = new ArrayList<>(List.of(car, gatto));
+        for (SoundEngine sound : listasuonatori) {
+            sound.makeSound();
+        }
 
-            }
-        };
-        Animal animal2 = new Animal("gatto", "MEOW") {
-            @Override
-            public void makeSound() {
+    }
 
-            }
-        };
-        Animal animal3 = new Animal("mucca", "MUUU") {
-            @Override
-            public void makeSound() {
-
-            }
-        };
-        Animal animal4 = new Animal("coccodrillo", "???") {
-            @Override
-            public void makeSound() {
-
-            }
-        };
+}
 
         /*Scanner scanner = new Scanner(System.in);
         System.out.println("Di quale animale vuoi conoscere il verso? \n" +
@@ -45,9 +33,3 @@ public class Main {
         }
 
          */
-        System.out.println("Il " + animal.getName() + " fa " + animal.getMakeSound());
-        System.out.println("Il " + animal2.getName() + " fa " + animal2.getMakeSound());
-        System.out.println("La " + animal3.getName() + " fa " + animal3.getMakeSound());
-        System.out.println("Il " + animal4.getName() + " fa " + animal4.getMakeSound());
-    }
-}

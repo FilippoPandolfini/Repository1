@@ -23,11 +23,24 @@ public class Calculator {
         return this.num1 * this.num2;
     }
 
-    public double divisione() {
+
+    public double divisione() throws ArithmeticException {
         if (this.num2 == 0) {
-            throw new
-        ArithmeticException("Impossibile dividere per zero");
-        } return this.num1 / this.num2;
+            throw new ArithmeticException("Impossibile dividere per zero");
+        }
+        return this.num1 / this.num2;
     }
-    }
+
+
+/*
+    public double divisione() {
+        try {
+            return this.num1 / this.num2;
+        } catch (ArithmeticException err) {
+            System.out.println("Errore: " + err.getMessage());
+        }
+        return 0;
+        }
+     */
+}
 
