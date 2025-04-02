@@ -12,6 +12,6 @@ public class Monkey extends Animals {
 
     @Override
     public String makeSound() {
-        return this.getName() + "HUHI";
+        return this.getName() + " HUHI";
     }
 }

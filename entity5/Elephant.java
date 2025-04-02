@@ -12,7 +12,7 @@ public class Elephant extends Animals {
 
     @Override
     public String makeSound() {
-        return this.getName() + "POOW";
+        return this.getName() + " POOW";
     }
 
 }
