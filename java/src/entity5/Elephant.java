@@ -1,4 +1,4 @@
-package entity5;
+package src.entity5;
 
 public class Elephant extends Animals {
     public Elephant(String name, String age) {

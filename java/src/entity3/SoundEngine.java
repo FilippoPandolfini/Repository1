@@ -1,4 +1,4 @@
-package entity3;
+package src.entity3;
 
 public interface SoundEngine {
     void makeSound();

@@ -1,7 +1,4 @@
-package entity4;
-
-import java.util.ArrayList;
-import java.util.List;
+package src.entity4;
 
 public class Main {
     public static void main(String[] args) {

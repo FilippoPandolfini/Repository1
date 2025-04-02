@@ -1,4 +1,4 @@
-package entity2;
+package src.entity2;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package entity3;
+package src.entity3;
 
 public abstract class Animal implements SoundEngine{
     String name;

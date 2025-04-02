@@ -1,4 +1,4 @@
-package entity5;
+package src.entity5;
 
 public abstract class Animals {
     private String name;

@@ -1,4 +1,4 @@
-package entity4;
+package src.entity4;
 
 public class Car extends Vehicle {
     public Car(String brand) {
